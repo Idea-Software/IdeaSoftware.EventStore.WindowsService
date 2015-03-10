@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd"> 
+    <metadata>
+        <id>EventStore</id>
+        <version>1.1.0</version>
+        <authors>Ingenie</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>EventStore service wrapper + BackUp Util</description>
+    </metadata>
+    <files>
+        <file src="EventStore\clusternode-web\css\main.min.css" target="EventStore\clusternode-web\css\main.min.css" />
+        <file src="EventStore\clusternode-web\images\logo.svg" target="EventStore\clusternode-web\images\logo.svg" />
+        <file src="EventStore\clusternode-web\js\ace\ace.js" target="EventStore\clusternode-web\js\ace\ace.js" />
+        <file src="EventStore\clusternode-web\js\ace\mode-javascript.js" target="EventStore\clusternode-web\js\ace\mode-javascript.js" />
+        <file src="EventStore\clusternode-web\js\ace\mode-json.js" target="EventStore\clusternode-web\js\ace\mode-json.js" />
+        <file src="EventStore\clusternode-web\js\ace\theme-monokai.js" target="EventStore\clusternode-web\js\ace\theme-monokai.js" />
+        <file src="EventStore\clusternode-web\js\ace\worker-javascript.js" target="EventStore\clusternode-web\js\ace\worker-javascript.js" />
+        <file src="EventStore\clusternode-web\js\app.min.js" target="EventStore\clusternode-web\js\app.min.js" />
+        <file src="EventStore\clusternode-web\js\requirejs.min.js" target="EventStore\clusternode-web\js\requirejs.min.js" />
+        <file src="EventStore\clusternode-web\apple-touch-icon.png" target="EventStore\clusternode-web\apple-touch-icon.png" />
+        <file src="EventStore\clusternode-web\es-tile.png" target="EventStore\clusternode-web\es-tile.png" />
+        <file src="EventStore\clusternode-web\favicon.png" target="EventStore\clusternode-web\favicon.png" />
+        <file src="EventStore\clusternode-web\index.html" target="EventStore\clusternode-web\index.html" />
+        <file src="EventStore\Prelude\1Prelude.js" target="EventStore\Prelude\1Prelude.js" />
+        <file src="EventStore\Prelude\Modules.js" target="EventStore\Prelude\Modules.js" />
+        <file src="EventStore\Prelude\ModulesExecuted.js" target="EventStore\Prelude\ModulesExecuted.js" />
+        <file src="EventStore\Prelude\Projections.js" target="EventStore\Prelude\Projections.js" />
+        <file src="EventStore\projections\es.projections.environment.js" target="EventStore\projections\es.projections.environment.js" />
+        <file src="EventStore\web-resources\js\es.menu.part.json" target="EventStore\web-resources\js\es.menu.part.json" />
+        <file src="EventStore\EventStore.ClientAPI.dll" target="EventStore\EventStore.ClientAPI.dll" />
+        <file src="EventStore\EventStore.ClientAPI.Embedded.dll" target="EventStore\EventStore.ClientAPI.Embedded.dll" />
+        <file src="EventStore\EventStore.ClientAPI.Embedded.pdb" target="EventStore\EventStore.ClientAPI.Embedded.pdb" />
+        <file src="EventStore\EventStore.ClientAPI.Embedded.xml" target="EventStore\EventStore.ClientAPI.Embedded.xml" />
+        <file src="EventStore\EventStore.ClientAPI.pdb" target="EventStore\EventStore.ClientAPI.pdb" />
+        <file src="EventStore\EventStore.ClientAPI.xml" target="EventStore\EventStore.ClientAPI.xml" />
+        <file src="EventStore\EventStore.ClusterNode.exe" target="EventStore\EventStore.ClusterNode.exe" />
+        <file src="EventStore\EventStore.ClusterNode.pdb" target="EventStore\EventStore.ClusterNode.pdb" />
+        <file src="EventStore\EventStore.PAdmin.exe" target="EventStore\EventStore.PAdmin.exe" />
+        <file src="EventStore\EventStore.PAdmin.pdb" target="EventStore\EventStore.PAdmin.pdb" />
+        <file src="EventStore\EventStore.Query.exe" target="EventStore\EventStore.Query.exe" />
+        <file src="EventStore\EventStore.Query.pdb" target="EventStore\EventStore.Query.pdb" />
+        <file src="EventStore\EventStore.TestClient.exe" target="EventStore\EventStore.TestClient.exe" />
+        <file src="EventStore\EventStore.TestClient.pdb" target="EventStore\EventStore.TestClient.pdb" />
+        <file src="EventStore\InstallWithDefaults.ps1" target="EventStore\InstallWithDefaults.ps1" />
+        <file src="EventStore\js1.dll" target="EventStore\js1.dll" />
+        <file src="EventStore\js1.pdb" target="EventStore\js1.pdb" />
+        <file src="EventStore\NLog.config" target="EventStore\NLog.config" />
+        <file src="EventStoreTopshelf\buildoutput\Automation.EventStore.Backup.Core.dll" target="EventStore\Automation.EventStore.Backup.Core.dll" />
+        <file src="EventStoreTopshelf\buildoutput\Automation.EventStore.Backup.Core.pdb" target="EventStore\Automation.EventStore.Backup.Core.pdb" />
+        <file src="EventStoreTopshelf\buildoutput\Automation.EventStore.TopShelf.exe" target="EventStore\Automation.EventStore.TopShelf.exe" />
+        <file src="EventStoreTopshelf\buildoutput\Automation.EventStore.TopShelf.exe.config" target="EventStore\Automation.EventStore.TopShelf.exe.config" />
+        <file src="EventStoreTopshelf\buildoutput\Automation.EventStore.TopShelf.pdb" target="EventStore\Automation.EventStore.TopShelf.pdb" />        
+        <file src="EventStoreTopshelf\buildoutput\Backup.exe" target="EventStore\Backup.exe" />            
+        <file src="EventStoreTopshelf\buildoutput\Backup.exe.config" target="EventStore\Backup.exe.config" />        
+        <file src="EventStoreTopshelf\buildoutput\Backup.pdb" target="EventStore\Backup.pdb" />        
+        <file src="EventStoreTopshelf\buildoutput\Restore.exe" target="EventStore\Restore.exe" />      
+        <file src="EventStoreTopshelf\buildoutput\Restore.exe.config" target="EventStore\Restore.exe.config" />       
+        <file src="EventStoreTopshelf\buildoutput\Restore.pdb" target="EventStore\Restore.pdb" />       
+        <file src="EventStoreTopshelf\buildoutput\PowerArgs.dll" target="EventStore\PowerArgs.dll" />               
+        <file src="EventStoreTopshelf\buildoutput\Topshelf.dll" target="EventStore\Topshelf.dll" />               
+        <file src="EventStoreTopshelf\buildoutput\log4net.dll" target="EventStore\log4net.dll" />
+    </files>
+</package>
