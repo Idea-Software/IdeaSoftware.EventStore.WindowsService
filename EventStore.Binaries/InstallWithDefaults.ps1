@@ -7,7 +7,7 @@ $exePath = "$scriptDirectory\Automation.EventStore.Topshelf.exe"
 
 Write-Host "Installing service"
 & $exePath uninstall -servicename:EventStoreLocal
-& $exePath install -servicename:EventStoreLocal -displayname:EventStoreLocal -description:EventStore -esexepath:(Get-Item -Path ".\" -Verbose).FullName -httpport:2117 -ip:127.0.0.1
+& $exePath install -servicename:EventStoreLocal -displayname:EventStoreLocal -description:EventStore -esexepath:(Get-Item -Path ".\" -Verbose).FullName
 
 
 if ($LASTEXITCODE -ne 0)
