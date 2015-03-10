@@ -3,7 +3,7 @@
     <metadata>
         <id>EventStore</id>
         <version>301.1.1</version>
-        <authors>Ingenie</authors>
+        <authors>IdeaSoftware</authors>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>EventStore service wrapper + BackUp Util</description>
     </metadata>
