@@ -56,5 +56,6 @@
         <file src="IdeaSoftware.EventStore.WindowsService\bin\Release\PowerArgs.dll" target="EventStore\PowerArgs.dll" />
         <file src="IdeaSoftware.EventStore.WindowsService\bin\Release\Topshelf.dll" target="EventStore\Topshelf.dll" />
         <file src="IdeaSoftware.EventStore.WindowsService\bin\Release\NLog.dll" target="EventStore\NLog.dll" />
+        <file src="tools\Init.ps1" target="tools\Init.ps1" />
     </files>
 </package>
